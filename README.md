@@ -1,4 +1,8 @@
-# aNuxtSite
+# "a Nuxt Site"
+
+Pretty basic title, as I couldn't come up with a better one.  If I could, I would probably be a copywriter instead.  Anyways, here's a quick little site I spun up to mess around with Nuxt and with Vue, in particular.  The original readme continues below. 
+
+
 
 ## Build Setup
 
