@@ -12,7 +12,7 @@
 
 @keyframes turn {
   100% {
-    transform: rotateY(0deg);
+    transform: rotateY(10deg);
   }
 }
 </style>
