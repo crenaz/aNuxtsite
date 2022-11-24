@@ -14,68 +14,45 @@
 
         <v-card-text>
           <p>
-            Vuetify is a progressive Javascript library that implements Google's Material Design concept, in a component framework and specifically designed for Vue.js. It was designed to empower developers to create amazing
-            applications.
+            Vuetify is a progressive Javascript library that implements Google's Material Design concept, in a component framework and specifically designed for Vue.js
           </p>
           <p>
-            For more info on Vuetify, check out the
+            The
             <a
               href="https://vuetifyjs.com"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              documentation </a
-            >.
+            >Vuetify</a> thats used here is v2.6.10
           </p>
           <p>
-            If you have questions, please join the official
+            I'm using 
             <a
-              href="https://chat.vuetifyjs.com/"
+              href="https://nuxtjs.org/"
               target="_blank"
               rel="noopener noreferrer"
               title="chat"
             >
-              discord </a
-            >.
+            Nuxt.js</a> here, at version 2.15.8
           </p>
           <p>
-            Find a bug? Report it on the github
+            The actual
             <a
               href="https://github.com/vuetifyjs/vuetify/issues"
               target="_blank"
               rel="noopener noreferrer"
               title="contribute"
             >
-              issue board </a
-            >.
-          </p>
-          <p>
-            Thank you for developing with Vuetify and I look forward to bringing
-            more exciting features in the future.
+            Vue</a> library is at v2.7.10
           </p>
           <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
+            <em>crenaz</em>
           </div>
           <hr class="my-3" />
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt Documentation
-          </a>
-          <br />
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Nuxt GitHub
-          </a>
+          
         </v-card-text>
         <v-card-actions>
           <v-spacer />
-          <v-btn color="primary" nuxt to="/inspire"> Continue </v-btn>
+          <v-btn color="primary" nuxt to="/inspire"> Continue to next page</v-btn>
         </v-card-actions>
       </v-card>
     </v-col>
