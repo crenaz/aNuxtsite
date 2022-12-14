@@ -3270,7 +3270,7 @@ __metadata:
     vue-jest: ^3.0.4
     vue-server-renderer: ^2.7.10
     vue-template-compiler: ^2.7.10
-    vuetify: ^2.6.10
+    vuetify: ^2.6.13
   languageName: unknown
   linkType: soft
 
@@ -6790,7 +6790,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^1.2.7#~builtin<compat/fsevents>":
   version: 1.2.13
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=d11327"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=18f3a7"
   dependencies:
     bindings: ^1.5.0
     nan: ^2.12.1
@@ -6800,7 +6800,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -12522,7 +12522,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -14096,7 +14096,7 @@ __metadata:
 
 "typescript@patch:typescript@~4.2#~builtin<compat/typescript>":
   version: 4.2.4
-  resolution: "typescript@patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=334f98"
+  resolution: "typescript@patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -14761,12 +14761,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuetify@npm:^2.6, vuetify@npm:^2.6.10":
+"vuetify@npm:^2.6":
   version: 2.6.12
   resolution: "vuetify@npm:2.6.12"
   peerDependencies:
     vue: ^2.6.4
   checksum: 29b4b0c2af278bd8e8c455b30da635305fbe1327e6337f5c3dadc5272a2f50e3447eb653b298330f34e5b00614f34d0ef70bf74d63c35a428017beaad3a73a5c
+  languageName: node
+  linkType: hard
+
+"vuetify@npm:^2.6.13":
+  version: 2.6.13
+  resolution: "vuetify@npm:2.6.13"
+  peerDependencies:
+    vue: ^2.6.4
+  checksum: c2b5ac22a760f68d7e7503c9c900a87a9180a171a45700466b0a9d8b3fb99d5250668f38d6d50c16adfa71bce2afcad8c1e03398b5d0ad25bc318f32dae2f974
   languageName: node
   linkType: hard
 
