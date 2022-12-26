@@ -81,4 +81,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  // error fix: Cannot start nuxt: Cannot read properties of undefined (reading 'options')
+  devServerHandlers: [],
 }
