@@ -1,8 +1,26 @@
 # "a Nuxt Site"
 
-Pretty basic title, as I couldn't come up with a better one.  If I could, I would probably be a copywriter instead.  Anyways, here's a quick little site I spun up to mess around with Nuxt and with Vue, in particular.  The original readme continues below. 
+Pretty basic title, as I couldn't come up with a better one.  If I could, I would probably be a copywriter instead.  Anyways, here's a quick little site I spun up to mess around with Nuxt and with Vue, in particular. 
 
+It runs, but now is broken with this error message as a clue:
 
+```
+Nuxi 3.0.0
+Nuxt 3.0.0 with Nitro 1.0.0
+
+  > Local:    http://localhost:3000/
+
+ ERROR  Cannot start nuxt:  Cannot read properties of undefined (reading 'options')
+
+  at axiosModule (node_modules/@nuxtjs/axios/lib/module.js:12:13)
+  at installModule (node_modules/@nuxt/kit/dist/index.mjs:416:9)
+  at async initNuxt (node_modules/nuxt/dist/index.mjs:1825:7)
+  at async load (node_modules/nuxi/dist/chunks/dev.mjs:6779:9)
+  at async Object.invoke (node_modules/nuxi/dist/chunks/dev.mjs:6840:5)
+  at async _main (node_modules/nuxi/dist/cli.mjs:50:20)
+```
+
+ The original readme continues below. 
 
 ## Build Setup
 
