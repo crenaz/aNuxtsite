@@ -1,90 +1,75 @@
-# "a Nuxt Site"
+# Nuxt Minimal Starter
 
-Pretty basic title, as I couldn't come up with a better one.  If I could, I would probably be a copywriter instead.  Anyways, here's a quick little site I spun up to mess around with Nuxt and with Vue, in particular. 
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-It runs, but now is broken with this error message as a clue:
+## Setup
 
-```
-Nuxi 3.0.0
-Nuxt 3.0.0 with Nitro 1.0.0
-
-  > Local:    http://localhost:3000/
-
- ERROR  Cannot start nuxt:  Cannot read properties of undefined (reading 'options')
-
-  at axiosModule (node_modules/@nuxtjs/axios/lib/module.js:12:13)
-  at installModule (node_modules/@nuxt/kit/dist/index.mjs:416:9)
-  at async initNuxt (node_modules/nuxt/dist/index.mjs:1825:7)
-  at async load (node_modules/nuxi/dist/chunks/dev.mjs:6779:9)
-  at async Object.invoke (node_modules/nuxi/dist/chunks/dev.mjs:6840:5)
-  at async _main (node_modules/nuxi/dist/cli.mjs:50:20)
-```
-
- The original readme continues below. 
-
-## Build Setup
+Make sure to install dependencies:
 
 ```bash
-# install dependencies
-$ yarn install
+# npm
+npm install
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+# pnpm
+pnpm install
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+# yarn
+yarn install
 
-# generate static project
-$ yarn generate
+# bun
+bun install
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Development Server
 
-## Special Directories
+Start the development server on `http://localhost:3000`:
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+```bash
+# npm
+npm run dev
 
-### `assets`
+# pnpm
+pnpm dev
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+# yarn
+yarn dev
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+# bun
+bun run dev
+```
 
-### `components`
+## Production
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+Build the application for production:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+```bash
+# npm
+npm run build
 
-### `layouts`
+# pnpm
+pnpm build
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+# yarn
+yarn build
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+# bun
+bun run build
+```
 
-### `pages`
+Locally preview production build:
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+```bash
+# npm
+npm run preview
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+# pnpm
+pnpm preview
 
-### `plugins`
+# yarn
+yarn preview
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+# bun
+bun run preview
+```
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
