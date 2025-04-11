@@ -22,7 +22,8 @@
     "vue": "^2.7.16",
     "vue-server-renderer": "^2.7.16",
     "vue-template-compiler": "^2.7.16",
-    "vuetify": "^2.7.2"
+    "vuetify": "^2.7.2",
+    "which": "^2.0.2"
   },
   "devDependencies": {
     "@nuxt/types": "^2.18.1",

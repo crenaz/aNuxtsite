@@ -1,6 +1,6 @@
 # "a Nuxt Site"
 
-Pretty basic title, as I couldn't come up with a better one.  If I could, I would probably be a copywriter instead.  Anyways, here's a quick little site I spun up to mess around with Nuxt and with Vue, in particular. 
+Pretty basic title, as I couldn't come up with a better one. If I could, I would probably be a copywriter instead. Anyways, here's a quick little site I spun up to mess around with Nuxt and with Vue, in particular.
 
 It runs, but now is broken with this error message as a clue:
 
@@ -20,7 +20,7 @@ Nuxt 3.0.0 with Nitro 1.0.0
   at async _main (node_modules/nuxi/dist/cli.mjs:50:20)
 ```
 
- The original readme continues below. 
+The original readme continues below.
 
 ## Build Setup
 

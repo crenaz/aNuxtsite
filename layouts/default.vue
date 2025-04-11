@@ -52,7 +52,10 @@
           <v-list-item-action>
             <v-icon light> mdi-repeat </v-icon>
           </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me, because I'm still trying to figure out the best way to use these side columns)</v-list-item-title>
+          <v-list-item-title
+            >Switch drawer (click me, because I'm still trying to figure out the
+            best way to use these side columns)</v-list-item-title
+          >
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
