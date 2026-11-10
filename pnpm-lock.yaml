@@ -2747,8 +2747,8 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
-  vue-router@5.4.0:
-    resolution: {integrity: sha512-pFvcYcxinDHjZUlf7AzFBrT8r8Xqvv4uMHoJnjc+EqPawXQvHTkF8S4tfSmQLpriVHUGfkaKlI7Et0KRjTMTdw==}
+  vue-router@5.5.0:
+    resolution: {integrity: sha512-nYhG+YzLcrO5Z7KbH1H/xvBeBzhCWhQG0z5DYNLuaJULhavZBmEgoQ5xVHGxwe65c5hnJQHZpBxWdQhnOBzHmw==}
     peerDependencies:
       '@pinia/colada': '>=0.21.2'
       '@vue/compiler-sfc': ^3.5.34 || ^4.0.0
@@ -5021,7 +5021,7 @@ snapshots:
       vue: 3.5.45
       vue-bundle-renderer: 2.5.0
       vue-component-type-helpers: 3.3.14
-      vue-router: 5.4.0(@vue/compiler-sfc@3.5.45)(esbuild@0.28.2)(rolldown@1.2.18)(rollup@4.68.2)(vite@8.3.7(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue@3.5.45)
+      vue-router: 5.5.0(@vue/compiler-sfc@3.5.45)(esbuild@0.28.2)(rolldown@1.2.18)(rollup@4.68.2)(vite@8.3.7(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue@3.5.45)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -5816,7 +5816,7 @@ snapshots:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.45
 
-  vue-router@5.4.0(@vue/compiler-sfc@3.5.45)(esbuild@0.28.2)(rolldown@1.2.18)(rollup@4.68.2)(vite@8.3.7(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue@3.5.45):
+  vue-router@5.5.0(@vue/compiler-sfc@3.5.45)(esbuild@0.28.2)(rolldown@1.2.18)(rollup@4.68.2)(vite@8.3.7(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2))(vue@3.5.45):
     dependencies:
       '@vue-macros/common': 3.1.4(vue@3.5.45)
       '@vue/devtools-api': 8.2.1
